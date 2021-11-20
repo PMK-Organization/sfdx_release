@@ -1,18 +1,7 @@
-# Salesforce DX Project: Next Steps
+# SFDX project 템플릿
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+--> jenkins에서 salesforce 배포할 때, 변경된 파일들만 Github에서 받아오게 되면, sfdx 프로젝트 형식이 아니게 된다.
+--> 따라서, Github 레파지토리에 빈 sfdx프로젝트를 올려 둔 것이 바로 이것이다. 
+--> 이것을 먼저 clone 받은 다음, 변경된 파일들을 넣게 되면 sfdx 프로젝트가 되고, 손쉽게 배포할 수 있게 된다. 
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+정말 말 그대로 빈 프로젝트이기 때문에 public이어도 상관없음!
